@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chismes del Profeta - El mejor té del momento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🔥 Chismes del Profeta</h1>
+            <p class="tagline">El mejor té del momento</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <button class="nav-btn active" onclick="filtrarCategoria('todos')">Todos</button>
+            <button class="nav-btn" onclick="filtrarCategoria('celebridades')">⭐ Celebridades</button>
+            <button class="nav-btn" onclick="filtrarCategoria('politica')">🏛️ Política</button>
+            <button class="nav-btn" onclick="filtrarCategoria('deportes')">⚽ Deportes</button>
+            <button class="nav-btn" onclick="filtrarCategoria('influencers')">📱 Influencers</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="trending-section">
+            <h2>🔥 Trending Ahora</h2>
+            <div class="trending-items" id="trending"></div>
+        </div>
+
+        <div class="feed">
+            <div class="posts" id="posts"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Chismes del Profeta. El té está servido.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
